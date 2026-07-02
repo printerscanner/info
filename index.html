@@ -7,23 +7,27 @@
     <title>Abbey Yacoe</title>
     <link
       rel="stylesheet"
-      href="node_modules/@owickstrom/the-monospace-web/src/reset.css"
-    />
-    <link
-      rel="stylesheet"
-      href="node_modules/@owickstrom/the-monospace-web/src/index.css"
+      href="https://printerscanner.github.io/slightly-better-css/slightly-better.css"
     />
     <style>
+      @font-face {
+        font-family: "Neue Montreal";
+        src: url("fonts/PPNeueMontreal-Regular.woff") format("woff");
+      }
+
       :root {
         --background-color: #090a09;
-        /* --text-color: #b2dc96; */
+        --text-color: #b2dc96;
         --accent-color: #ff0d00;
         --muted-color: #0d0d0c;
         --font-family: "Neue Montreal", monospace;
         --font-size: 110%;
       }
 
-      a:link {
+      @media only screen and (max-width: 600px) {
+      }
+
+      a {
         color: var(--accent-color);
         transition: color 0.2s;
       }
@@ -40,7 +44,7 @@
   <body>
     <section>
       <p>
-        Hey I'm Abbey. I'm a software developer from San Francisco based in
+        Hey 👋 I'm Abbey. I'm a software developer from San Francisco based in
         Berlin, known online sometimes as printer_scanner. Recent projects can
         be found via my one-person studio,
         <a href="https://printerscanner.net">Printer Scanner Studio</a>, and you
@@ -63,7 +67,7 @@
         <a href="https://strudel.cc/">Strudel</a>.
       </p>
       <p>
-        I collaborate with
+        I also collaborate with
         <a href="https://headless.horse">Headless Horse</a> on an applied
         research initiative called
         <a href="https://overbrowsing.com">Overbrowsing</a>, investigating
@@ -72,16 +76,36 @@
         <a href="https://github.com/overbrowsing/sustainable-css"
           >Sustainable CSS</a
         >, a stylelint plugin that optimizes CSS by following the guiding
-        principle that "every byte counts" and created
+        principle that "every byte counts";
         <a href="https://github.com/overbrowsing/co2-shield">CO2 Shield</a>, a
-        TypeScript application that quantifies webpage environmental impact. I
-        also built
+        TypeScript application that quantifies webpage environmental impact and
+        generates shields.io badges for GitHub repositories; and
+        <a href="https://overbrowsing.com/projects/pruner">Pruner.js</a>, a
+        responsive image JavaScript utility that reduces pixel waste. I also
+        built
         <a href="https://github.com/printerscanner/slightly-better-css"
           >Slightly Better CSS</a
         >, a minimal stylesheet framework that makes websites look slightly
-        better. And I maintain
+        better (for example, this one). And I maintain
         <a href="https://sapienshate.club">Sapiens Hate Club</a>, because I
         really hate that book and think more people should know about that.
+      </p>
+
+      <p>
+        <strong>TYPE DESIGN</strong> — I am building
+        <a href="https://mother-type.de">Mother Type</a>, an open-source type
+        foundry and open-development model for digital typefaces. Mother Type is
+        a libre friend of
+        <a href="https://velvetyne.fr/velvetyne-libre-friends/"
+          >Velvetyne Type Foundry</a
+        >, and our typefaces are shared and distributed via the
+        <a href="https://github.com/mother-type/Unified-Font-Repository"
+          >Unified Font Repository</a
+        >. Fonts I've designed include
+        <a href="https://mother-type.de/fonts/body-sans">(my) body sans</a> —
+        you may have seen kitsch body fonts before, but you haven't seen one
+        that's literally my body. I'd recommend it for resumes and corporate
+        use.
       </p>
 
       <p>
@@ -101,26 +125,12 @@
       </p>
 
       <p>
-        <strong>TYPE DESIGN</strong> — I design type faces at
-        <a href="https://mother-type.de">Mother Type</a>, an open-source type
-        foundry and open-development model for digital typefaces. Mother Type is
-        a libre friend of
-        <a href="https://velvetyne.fr/velvetyne-libre-friends/"
-          >Velvetyne Type Foundry</a
-        >, and our typefaces are shared and distributed via the
-        <a href="https://github.com/mother-type/Unified-Font-Repository"
-          >Unified Font Repository</a
-        >. Fonts I've designed include
-        <a href="https://mother-type.de/fonts/body-sans">(my) body sans</a> —
-        you may have seen kitsch body fonts before, but you haven't seen one
-        that's literally my body. I'd recommend it for resumes and corporate
-        use.
-      </p>
-
-      <p>
         <strong>PREVIOUSLY</strong> — I worked at
         <a href="https://fictivekin.com">Fictive Kin</a>, a NYC product design
-        studio building products and web systems. Before that, I worked on the
+        studio building products and web systems including
+        <a href="https://galaxy.com/">Galaxy</a>,
+        <a href="https://everlaw.com/">Everlaw</a>, and
+        <a href="https://pjtpartners.com/">PJT</a>. Before that, I worked on the
         <a
           href="https://en.wikipedia.org/wiki/Vera_C._Rubin_Observatory#/media/File:M1M3_mirror_group_photo.jpg"
           >Vera Rubin Observatory</a
@@ -138,7 +148,7 @@
           >itsprinterscanner@gmail.com</a
         >.
       </p>
-      <p style="font-size: 0.8em">Last Updated: May 2026</p>
+      <p style="font-size: 0.8em">Last Updated: August 2025</p>
     </section>
   </body>
 </html>
